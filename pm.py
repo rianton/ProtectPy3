@@ -13,23 +13,23 @@ import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 #cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
 #Ambil Token Via Qr
-cl = LINE()
+cl = LINE("EsmFhMkIVDNlv3SSvCQ8.NyA+PG8TJV88Pn6FcTZmsa.5rG/Xg1ZAJz6qRkHXduM7KffSO7jhWnNbxqpGWvY2Cg=")
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE()
+ki = LINE("Es8qVCVOjVwRjaghhwO6.KmPykel90yCItZ1HUpdRPG.cKWppDUGSmAs3zukjvThdauShhY/DgLpMSSGdTjZtk8=")
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE()
+kk = LINE("Esdit6hXVbWA2dt27Tge.cfU11NWrEakjPSDwvX5qpG.UpbMzq/ZRE3+gYsqmvrWXqzTa/oX8turyNuSPpNaQI4=")
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
-kc = LINE()
+kc = LINE("EsTlJFWUEKlVnMyjSeXa.IYbKi80JSiOSiZ8cwc/CIG.xRWNmT5yO9EnZ9JuVP69OE44+Fuk2k5e8bE0kI1hfwA=")
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
-ks = LINE()
+ks = LINE("EsGOpqUcA3lea8LVrK75.MRaGSrBZwVVBm5JYV/jhXq.AYuBDXR4uO5lvR0TpzGw1ciz/oILzOSBcqEIhSXFO5A=")
 ks.log("Auth Token : " + str(ks.authToken))
 ks.log("Timeline Token : " + str(ks.tl.channelAccessToken))
 
@@ -73,8 +73,8 @@ Cmid = kc.getProfile().mid
 Dmid = ks.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["ub41f826c5d81c8ead447ee84c43857b1"] 
-owner=["ub41f826c5d81c8ead447ee84c43857b1"]
+admin=["u67acbba40f5d7983bd60c200e92456e9"] 
+owner=["u67acbba40f5d7983bd60c200e92456e9"]
 whitelist=[""]
 wait = {
     'contact':False,
